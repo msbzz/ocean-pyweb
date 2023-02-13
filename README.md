@@ -1,2 +1,2 @@
 # ocean-pyweb
-Aula Ocean Python &amp; Django 
+Aula Ocean Python &amp; Flask 
