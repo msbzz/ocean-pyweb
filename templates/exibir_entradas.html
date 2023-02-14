@@ -1,0 +1,14 @@
+{% extends layou.html %}
+
+<ul class="entrada">
+    {% for entrada in entradas %}
+       <li>
+          <h2>{{entrada.titulo}}</h2>
+          <p>{{entrada.texto}}</p>
+        </li>
+        
+        {% else %}
+        <p>Não existem posts a serem apresentados</p>
+    {% endfor %}
+</ul>
+ 
