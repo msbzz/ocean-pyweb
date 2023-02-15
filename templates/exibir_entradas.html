@@ -1,5 +1,5 @@
-{% extends layou.html %}
-
+{% extends "layout.html" %}
+{% block corpo %}
 <ul class="entrada">
     {% for entrada in entradas %}
        <li>
@@ -11,4 +11,5 @@
         <p>Não existem posts a serem apresentados</p>
     {% endfor %}
 </ul>
+{% endblock %}
  
