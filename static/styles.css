@@ -9,8 +9,16 @@ h2              { font-size: 1.2em; }
 .entradas       { list-style: none; margin: 0; padding: 0; }
 .entradas li    { margin: 0.8em 1.2em; }
 .entradas li h2 { margin-left: -1em; }
-.ins-entrada    { font-size: 0.9em; border-bottom: 1px solid #ccc; }
+
+.ins-entrada    { margin: center;
+                  padding: 0.8em;
+                  font-size: 0.9em; 
+                  border-bottom: 1px solid #ccc;
+                  background-color: #fff; 
+                }
+
 .ins-entrada dl { font-weight: bold; }
+
 .metanav        { text-align: right; font-size: 0.8em; padding: 0.3em;
                   margin-bottom: 1em; background: #fafafa; }
 .flash          { background: #CEE5F5; padding: 0.5em;
